@@ -1,4 +1,139 @@
 body {
-    background: #fff;
-    color: #222;
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+}
+
+.search {
+  padding-top: 40px;
+  width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+
+.search img {
+  display: block;
+  margin: auto;
+  padding-top: 112px;
+}
+
+.search .text {
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 575px;
+  padding: 12px 12px;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px #dcdcdc;
+}
+
+.search .text:hover {
+  box-shadow: 0 3px 6px #dcdcdc;
+}
+
+.search input {
+  border:none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  width: 525px;
+  display: inline-block;
+}
+
+input {
+  outline: none;
+}
+
+.buttons button {
+  display: inline-block;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  color: #777777;
+  margin: 14px 2px;
+  padding: 9px 15px;
+  outline:none;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+}
+
+.buttons button:hover {
+  border: 1px solid #b5b5b5;
+  color: black;
+}
+
+.buttons {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+.navbar {
+  position: relative;
+  top: 8px;
+  height: 30px;
+  margin-top: 15px;
+  min-width: 100%;
+}
+.nav-right {
+  text-align: right;
+  padding-right: 15px;
+  float: right;
+  display: inline-block;
+}
+.nav-left {
+  text-align: left;
+  padding-left: 15px;
+  float: left;
+  display: inline-block;
+}
+.navbar a {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  vertical-align: middle;
+  color: #000;
+  opacity: 0.75;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  min-width: 900px;
+  border-top: #dedede solid 1px;
+  height: 40px;
+  background-color: #f2f2f2;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.footer a {
+  line-height: 3;
+  margin: 0 13px 0 13px;
+  color: #696969;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-left {
+  width: 250px;
+  padding-left: 17px;
+  float: left;
+}
+
+.footer-right {
+  text-align: right;
+  padding-right: 17px;
+  width: 250px;
+  float: right;
 }
