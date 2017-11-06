@@ -67,37 +67,118 @@ input {
   width: 400px;
   margin: auto;
 }
+.nav-right {
+  text-align: right;
+  padding-right: 15px;
+  float: right;
+  display: -webkit-flex;
+  display: flex;
+  padding-left: 15px;
+}
+.nav-left {
+  text-align: left;
+  float: left;
+  display: inline-block;
+}
 .navbar {
   position: relative;
   top: 8px;
   height: 30px;
   margin-top: 15px;
   min-width: 100%;
-}
-.nav-right {
-  text-align: right;
-  padding-right: 15px;
-  float: right;
-  display: inline-block;
-}
-.nav-left {
-  text-align: left;
-  padding-left: 15px;
-  float: left;
-  display: inline-block;
+  vertical-align: middle;
+
 }
 .navbar a {
   font-family: Arial, sans-serif;
   font-size: 13px;
   text-decoration: none;
-  vertical-align: middle;
   color: #000;
   opacity: 0.75;
+  vertical-align: middle;
 }
 
 .navbar a:hover {
   text-decoration: underline;
+  vertical-align: middle;
 }
+.app_icon_bg:hover {
+    opacity: .85;
+}
+.app_icon_bg {
+  background-position: -132px -38px;
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+.app_icon{
+  background-image: url('../images/google-themed-icons.png');
+  background-size: 528px 68px;
+    vertical-align: middle;
+}
+.g_avatar:hover {
+    opacity: .85;
+}
+.g_avatar {
+    vertical-align: middle;
+  background-image: url('../images/avatar.png');
+  background-size: 33px 33px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  float: right;
+  display: -webkit-flex;
+  display: flex;
+  overflow: hidden;
+  height: 33px;
+  width: 33px;
+  z-index: 0;
+}
+.links-right {
+  line-height: normal;
+  padding-right: 15px;
+  vertical-align: middle;
+  text-align: right;
+  white-space: nowrap;
+  font-size: 13px;
+}
+.navbar-buttons {
+    vertical-align: middle;
+  float: right;
+  display: -webkit-flex;
+  display: flex;
+  height: 30px;
+  width: 100%;
+  clear: both;
+}
+
+/*
+.options {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.options a {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  background: url('../images/i1_1967ca6a.png');
+  background-position: -132px -38px;
+  opacity: .55;
+}
+
+.options a:hover {
+  opacity: 1;
+}*/
 
 .footer {
   min-width: 900px;
