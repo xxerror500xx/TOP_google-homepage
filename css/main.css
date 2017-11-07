@@ -108,7 +108,21 @@ body {
 input {
   outline: none;
 }
+.google-pagination {
+ background:url(/images/nav_logo242_hr.png) no-repeat;
+ background-size:167px;
+ overflow:hidden
+ background-position: 0 0 0 0;
+ height:40px;
+ display:block
+}
 
+.google-pagination a {
+  text-decoration: none;
+}
+.google-pagination a:hover {
+  text-decoration: underline;
+}
 .buttons button {
   display: inline-block;
   font-weight: bold;
@@ -170,7 +184,15 @@ input {
   vertical-align: middle;
 }
 .app_icon_bg:hover {
-    opacity: .85;
+    opacity: 0.85;
+}
+.pagination {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.pagination a span{
+  text-emphasis: none;
 }
 .app_icon_bg {
   background-position: -132px -38px;
@@ -193,7 +215,7 @@ input {
   vertical-align: middle;
 }
 .g_avatar:hover {
-    opacity: .85;
+    opacity: 0.85;
     padding-left: 0;
 }
 .g_avatar {
@@ -246,6 +268,7 @@ input {
 .footer a {
   line-height: 3;
   margin: 0 13px 0 13px;
+  opacity: 0.75;
   color: #696969;
   text-decoration: none;
   font-size: 13px;
@@ -254,7 +277,7 @@ input {
 }
 
 .footer a:hover {
-  text-decoration: underline;
+  opacity: 100;
 }
 
 .footer-left {
