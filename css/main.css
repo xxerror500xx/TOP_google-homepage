@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   min-height: 100%;
+  font-size: small;
 }
 
 .search {
@@ -73,12 +74,13 @@ input {
   float: right;
   display: -webkit-flex;
   display: flex;
-  padding-left: 15px;
 }
 .nav-left {
   text-align: left;
+  padding-left: 15px;
   float: left;
-  display: inline-block;
+  display: -webkit-flex;
+  display: flex;
 }
 .navbar {
   position: relative;
@@ -87,7 +89,6 @@ input {
   margin-top: 15px;
   min-width: 100%;
   vertical-align: middle;
-
 }
 .navbar a {
   font-family: Arial, sans-serif;
@@ -96,6 +97,7 @@ input {
   color: #000;
   opacity: 0.75;
   vertical-align: middle;
+  padding-left: 15px;
 }
 
 .navbar a:hover {
@@ -123,13 +125,14 @@ input {
 .app_icon{
   background-image: url('../images/google-themed-icons.png');
   background-size: 528px 68px;
-    vertical-align: middle;
+  vertical-align: middle;
 }
 .g_avatar:hover {
     opacity: .85;
+    padding-left: 0;
 }
 .g_avatar {
-    vertical-align: middle;
+  vertical-align: middle;
   background-image: url('../images/avatar.png');
   background-size: 33px 33px;
   -moz-border-radius: 50%;
@@ -141,6 +144,7 @@ input {
   height: 33px;
   width: 33px;
   z-index: 0;
+  padding-left: 0;
 }
 .links-right {
   line-height: normal;
@@ -159,26 +163,6 @@ input {
   width: 100%;
   clear: both;
 }
-
-/*
-.options {
-  display: inline;
-  margin: 0;
-  padding: 0;
-}
-
-.options a {
-  height: 30px;
-  width: 30px;
-  background-color: black;
-  background: url('../images/i1_1967ca6a.png');
-  background-position: -132px -38px;
-  opacity: .55;
-}
-
-.options a:hover {
-  opacity: 1;
-}*/
 
 .footer {
   min-width: 900px;
