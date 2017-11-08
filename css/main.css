@@ -281,7 +281,6 @@ input {
 }
 
 .footer-left {
-  width: 250px;
   padding-left: 17px;
   float: left;
 }
@@ -289,6 +288,5 @@ input {
 .footer-right {
   text-align: right;
   padding-right: 17px;
-  width: 250px;
   float: right;
 }
