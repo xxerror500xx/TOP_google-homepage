@@ -1,7 +1,6 @@
 # TOP_google-homepage
 
 
-
 This is the Google mock up homepage without any functionality. I created this as
 proof that I posses the fundamentals concepts of css and Html.
 
